@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(28, 35, 55);
+  padding: 100px;
+}
+
+header {
+  margin-bottom: 40px;
+  background-color: rgb(28, 35, 55);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(62, 80, 129);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  max-width: 640 px;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+form input {
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #fff;
+  color: rgb(28, 35, 55);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+ul {
+  display: flexbox;
+  justify-content: baseline;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+ul li {
+  font-size: 20px;
+  color: rgb(28, 35, 55);
+  text-align: center;
+  padding: 16px;
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.risco {
+  text-decoration: line-through;
+}
+
+form button:hover {
+  background-color: rgb(28, 35, 55);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+}
