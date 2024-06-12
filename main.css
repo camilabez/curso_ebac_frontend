@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 34px;
+  background-color: rgb(208, 208, 208);
+}
+
+.linha {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 18px;
+}
